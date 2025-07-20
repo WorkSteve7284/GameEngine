@@ -1,0 +1,14 @@
+# Ignore statically-compiled objects
+*.o
+
+# Ignore temporary files
+*.temp
+*.tmp
+
+# Ignore compiled programs
+bin/*
+
+# Ignore non-engine code
+src/*
+!src/main.cpp
+!src/Scene-List.hpp
