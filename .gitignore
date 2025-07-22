@@ -12,3 +12,18 @@ bin/*
 src/*
 !src/main.cpp
 !src/Scene-List.hpp
+!src/Assets
+
+# Ignore logs
+*.log
+*.log.*
+
+# Ignore built programs
+*.elf
+*.exe
+*.out
+*.app
+
+# Ignore VS Code settings
+.vscode/*
+.vscode
